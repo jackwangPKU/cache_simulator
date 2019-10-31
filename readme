@@ -1,0 +1,18 @@
+This project uses Apache License.
+
+File explaination:
+1. cal_set.cpp: calculate the misses of all the sets of LLC without slices.
+2. cal_set_slice.cpp: calculate the accesses and misses of all the sets of LLC with slices, finished based on the "cal_set.cpp".
+3. filter.cpp: filter the traces of some set of some slice.
+4. LRU.cpp: calculate the occupancies of two co-run benchmarks using full sharing cache allocation.
+5. occupancy.cpp: calculate the occupancies of two co-run benchmarks using arbitrary cache allocation, including absolutely isolation, partial sharing and full sharing.
+6. my_bench.cpp: produce testing cases.
+7. pic_cal_set.py: draw diagrams using the output of cal_set*.cpp.
+8. pic_occupancy.py: draw diagrams using the output of occupancy.cpp.
+
+Tips:
+1. To help you understand every program, you should read heading comments of every file first.
+2. All the configues of LLC can be changed in the source file.
+3. Some parameters can be set from the input.
+
+
