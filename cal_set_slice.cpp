@@ -1,6 +1,7 @@
 /* 
- * This program simulates a LRU-based last level cache with several slices.
+ * This program simulates a LRU-based last level cache with several slices, based on cal_set.cpp.
  * The target is to count the accesses and misses of all the sets.
+ * Precondition: same as cal_set.cpp.
  * Usage: g++ -std=c++11 cal_set_slice.cpp -o cal_set_slice
  *        ./cal_set_slice [benchmark1] [benchmark2]
  * Input: follow the hints

@@ -1,6 +1,7 @@
 /*
  * This program simulates a LRU-based last level cache with only one slice.
  * The target is to count the misses of all the sets.
+ * Precondition: The .out file including all the traces of the two benchmarks.
  * Usage: g++ -std=c++11 cal_set.cpp -o cal_set
  *        ./cal_set [benmark1] [benchmark2]
  * Input: follow the hints
